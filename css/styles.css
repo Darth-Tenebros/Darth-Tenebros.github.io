@@ -1,0 +1,53 @@
+/* * {
+    outline: 2px solid red;
+} */
+
+body{
+    font-family: 'JetBrains Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.basic-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.details{
+    text-align: center;
+}
+
+.details h4{
+    font-weight: bolder;
+    font-size: xx-large;
+    flex: 1;
+    margin-bottom: 0;
+}
+
+.details h5{
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: darkslategray;
+    font-size: large;
+}
+
+#links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.inner{
+    margin: 50px;
+}
+
+img{
+    height: 320px;
+    width: 320px;
+    clip-path: circle(50% at 50% 50%);
+}
