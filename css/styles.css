@@ -132,3 +132,41 @@ a{
     font-weight: bolder;
     font-size: 20px;
 }
+
+/* Media queries for responsive design */
+@media screen and (max-width: 1200px) {
+    .basic-info {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .description {
+        width: 80%;
+        margin: auto;
+    }
+
+    .stack {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .tech {
+        width: 80px;
+        height: 80px;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projects .project {
+        width: 80%;
+    }
+}
