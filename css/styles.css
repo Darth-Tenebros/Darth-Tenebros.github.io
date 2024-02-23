@@ -59,9 +59,10 @@ a{
     clip-path: circle(50% at 50% 50%);
 }
 
-#stack-header{
+#stack-header, #projects-header{
     font-weight: bolder;
     font-size: 20px;
+    margin-top: 80px;
 }
 
 .stack{
@@ -117,6 +118,7 @@ a{
     justify-content: center;
     gap: 20px;
     margin: 45px;
+    margin-top: 0;
 }
 
 .projects .project{
