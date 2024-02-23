@@ -8,10 +8,12 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    flex-direction: column;
 }
 
 .basic-info{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -46,8 +48,37 @@ body{
     margin: 50px;
 }
 
-img{
-    height: 320px;
-    width: 320px;
+.me{
+    height: 250px;
+    width: 250px;
     clip-path: circle(50% at 50% 50%);
+}
+
+#stack-header{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.stack{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.tech{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.logo img{
+    margin-bottom: 2px;
+}
+
+.logo p{
+    margin: 0;
 }
