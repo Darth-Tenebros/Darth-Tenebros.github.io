@@ -44,6 +44,11 @@ body{
     justify-content: space-around;
 }
 
+a{
+    text-decoration: none;
+    background-color:azure;
+}
+
 .inner{
     margin: 50px;
 }
@@ -58,10 +63,17 @@ body{
     font-weight: bolder;
     font-size: 20px;
 }
+
 .stack{
     display: flex;
     justify-content: center;
     gap: 60px;
+}
+
+.lightsaber{
+    mix-blend-mode: multiply;
+    height: 60px;
+    width: 300px;
 }
 
 .tech{
@@ -98,4 +110,25 @@ body{
 
 .description .close{
     color: green;
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 45px;
+}
+
+.projects .project{
+    height: 300px;
+    width: 300px;
+    border: 5px solid lightskyblue;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.projects .project .project-title{
+    font-weight: bolder;
+    font-size: 20px;
 }
