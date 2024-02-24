@@ -11,6 +11,11 @@ body{
     flex-direction: column;
 }
 
+.dark-mode{
+    background-color: #403a3a;
+    color: antiquewhite;
+}
+
 .basic-info{
     display: flex;
     flex-direction: row;
