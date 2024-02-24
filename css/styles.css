@@ -11,9 +11,19 @@ body{
     flex-direction: column;
 }
 
+.toggle-button{
+    display: flex;
+    justify-content: end;
+}
+
+.mode-toggle{
+    height: 20px;
+    width: 20px;
+}
+
 .dark-mode{
-    background-color: #403a3a;
-    color: antiquewhite;
+    background-color: #1c1c1c;
+    color: #fcfafa;
 }
 
 .basic-info{

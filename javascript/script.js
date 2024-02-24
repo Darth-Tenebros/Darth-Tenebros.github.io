@@ -1,6 +1,21 @@
-function darkmode(){
-    let element = document.body;
-    let content = document.getElementById("DarkModetext");
-    element.className = "dark-mode";
-    content.innerText = "Dark Mode is ON";  
+
+// hacky bs go brrrrrrr
+let isFirst = true;
+function changeToggleImage(){
+    if(isFirst){
+        document.getElementById("light-dark-toggle").src = "./img/dark.png";
+        isFirst = false;
+    }else{
+        document.getElementById("light-dark-toggle").src = "./img/light.png";
+        isFirst = true;
+    }
 }
+
+const toggle = document.getElementById("light-dark-toggle");
+
+toggle.addEventListener('click', function(){
+    let element = document.body;
+    element.classList.toggle("dark-mode"); // Toggle the class instead of setting it
+    changeToggleImage();
+});
+
