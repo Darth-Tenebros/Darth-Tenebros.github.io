@@ -4,9 +4,11 @@ let isFirst = true;
 function changeToggleImage(){
     if(isFirst){
         document.getElementById("light-dark-toggle").src = "./img/dark.png";
+        document.getElementById("lightsaber").src = "./img/red_lightsaber.png";
         isFirst = false;
     }else{
         document.getElementById("light-dark-toggle").src = "./img/light.png";
+        document.getElementById("lightsaber").src = "./img/lightsaber.png"
         isFirst = true;
     }
 }
